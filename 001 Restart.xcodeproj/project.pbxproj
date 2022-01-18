@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760C47CD27975035004AD534 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760C47CC27975035004AD534 /* AudioPlayer.swift */; };
 		768755D42795ECEF0045662E /* _01_RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768755D32795ECEF0045662E /* _01_RestartApp.swift */; };
 		768755D62795ECEF0045662E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768755D52795ECEF0045662E /* ContentView.swift */; };
 		768755D82795ECF00045662E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768755D72795ECF00045662E /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		760C47CC27975035004AD534 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		768755D02795ECEF0045662E /* 001 Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001 Restart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		768755D32795ECEF0045662E /* _01_RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _01_RestartApp.swift; sourceTree = "<group>"; };
 		768755D52795ECEF0045662E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		768755EA2795F3C10045662E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				760C47CC27975035004AD534 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				768755EF2795F55A0045662E /* HomeView.swift in Sources */,
 				768755D62795ECEF0045662E /* ContentView.swift in Sources */,
 				768755D42795ECEF0045662E /* _01_RestartApp.swift in Sources */,
+				760C47CD27975035004AD534 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -304,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +328,7 @@
 				DEVELOPMENT_TEAM = X22L83LCAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "001 Restart/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +350,7 @@
 				DEVELOPMENT_TEAM = X22L83LCAN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "001 Restart/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
